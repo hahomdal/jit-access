@@ -29,7 +29,7 @@
     <surefire-plugin.version>3.1.2</surefire-plugin.version>
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.source>17</maven.compiler.source>
-    <quarkus.version>3.2.3.Final</quarkus.version>
+    <quarkus.version>3.5.0</quarkus.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -57,7 +57,7 @@
     <dependency>
       <groupId>com.google.auth</groupId>
       <artifactId>google-auth-library-oauth2-http</artifactId>
-      <version>1.19.0</version>
+      <version>1.20.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.apis</groupId>
@@ -67,7 +67,7 @@
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-cloudasset</artifactId>
-      <version>v1-rev20230902-2.0.0</version>
+      <version>v1-rev20231013-2.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.apis</groupId>
@@ -94,7 +94,7 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
-      <version>5.5.0</version>
+      <version>5.6.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
